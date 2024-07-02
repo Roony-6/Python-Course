@@ -16,8 +16,20 @@ print(tupla)
 #tupla[1]= "Cruz"
 
 
-# Conjuntos{} (No se pueden modificar sus elementos, no se puede acceder a ellos sin un bucle, no permite elementos repetidos)
+# Conjuntos (set) {} (No se pueden modificar sus elementos, no se puede acceder a ellos sin un bucle, no permite elementos repetidos)
 
 conjunto= {"Roony", "Roldan",18,1.78,True,"Roony"}
 
 print(conjunto)
+
+# Diccionario  key:valor (similar a los HashMap de java o a un JSON en js) 
+
+diccionario= {
+    'nombre': "Roony",
+    'apellido': "Roldan",
+    'edad': 18,
+    'estatura': 1.78,
+    'animado': True
+}
+
+print(diccionario["nombre"])
