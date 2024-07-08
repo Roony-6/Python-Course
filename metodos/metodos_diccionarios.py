@@ -19,3 +19,5 @@ print(diccionario.get("nombre"))
 #POP elimina los elementos pasandole la clave como parametro
 diccionario.pop("edad","estatura")
 print(diccionario)
+
+#ITEMS
